@@ -1,25 +1,29 @@
-# aur4all
+# aur4all [WIP]
+---
+A simple AUR scraper (and future aur-helper).
+> to be written in Python if possible
 
-a simple aur seeker (and future aur-helper)
 
 ## todo
-
-#### Base
+---
+### Base
 - [ ] Convert this README to asciidoc
 - [ ] Decide if I want to write this program in bash or in python..
-- [ ] Fork to gitlab
-- [ ] Make build package for AUR
+- [ ] Add to PyPi
 - [ ] Add to AUR
 
 
-#### Find
-- [ ] Create alpha-python version
-- [ ] Create alpha-bash version
+### Find
+- [ ] Create alpha-python version for scraper
 
-#### Install
-- [ ] 
 
-##### Commands Cheatsheet
+### Install
+- [ ] Create alpha-${lang} version for installer
+
+
+## aur4all
+---
+### Commands Cheatsheet
 * [core]
 - -S    Sync internal mirrorlist
 - -Q    Query installed PKGs
@@ -32,7 +36,7 @@ a simple aur seeker (and future aur-helper)
 - -y    Same as *-i* but without confirmation.
 
 
-##### Examples
+### Examples
 ```
 aur4all -Ss *package*
   > Searches the AUR for query
